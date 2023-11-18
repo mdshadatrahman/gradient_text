@@ -1,39 +1,46 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Gradient Text
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+Create eye-catching and vibrant text with ease using the Flutter Gradient Text package! This versatile package empowers Flutter developers to integrate gradient effects seamlessly into their applications. Whether you're looking to add a subtle touch or make a bold statement, the Flutter Gradient Text package offers a wide range of gradient types to suit your design needs.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Key Features
+- **Easy Integration:** Quickly integrate gradient text into your Flutter app with just a few lines of code.
+- **Customizable:** Tailor the gradient to your liking by choosing from a variety of gradient types and adjusting colors, direction, and more.
+- **Performance-Optimized:** Enjoy smooth rendering and performance, ensuring a seamless user experience.
+- **Versatile Usage:** Perfect for headlines, banners, buttons, and any other text elements that need a pop of color.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Get ready to elevate your app's visual appeal with the Flutter Gradient Text package. Explore the endless possibilities of gradient text and captivate your users in style!
 
-## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+    GradientText(
+    	text: 'LinearGradient text',
+    	style: Theme.of(context).textTheme.headlineLarge,
+    ),
+
+    GradientText(
+        text: 'RadialGradient text',
+        gradient: const RadialGradient(
+            colors: [
+                Color(0xFF9747FF),
+            	Color(0xFF275AFF),
+                Color(0xFF56B8FF),
+            ],
+        ),
+        style: Theme.of(context).textTheme.headlineLarge,
+    ),
+           
+	GradientText(
+        text: 'SweepGradient text',
+        gradient: const SweepGradient(
+        	colors: [
+            	Color(0xFF9747FF),
+            	Color(0xFF275AFF),
+            	Color(0xFF56B8FF),
+        	],
+		),
+        style: Theme.of(context).textTheme.headlineLarge,
+    ),
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
