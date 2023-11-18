@@ -51,9 +51,9 @@ class _MyHomePageState extends State<MyHomePage> {
               text: 'RadialGradient text',
               gradient: const RadialGradient(
                 colors: [
-                  Color(0xFF9747FF),
-                  Color(0xFF275AFF),
-                  Color(0xFF56B8FF),
+                  Color(0xff2193b0),
+                  Color(0xffffc3a0),
+                  Color(0xFF734b6d),
                 ],
               ),
               style: Theme.of(context).textTheme.headlineLarge,
@@ -62,9 +62,8 @@ class _MyHomePageState extends State<MyHomePage> {
               text: 'SweepGradient text',
               gradient: const SweepGradient(
                 colors: [
-                  Color(0xFF9747FF),
-                  Color(0xFF275AFF),
-                  Color(0xFF56B8FF),
+                  Color(0xffcc2b5e),
+                  Color(0xff753a88),
                 ],
               ),
               style: Theme.of(context).textTheme.headlineLarge,
