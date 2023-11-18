@@ -1,6 +1,6 @@
-name: gradient_text
-description: A new Flutter package project.
-version: 0.0.1
+name: gradient_txt
+description: A new Flutter package for creating gradient text.
+version: 1.0.0
 homepage: https://github.com/mdshadatrahman/gradient_text
 
 environment:

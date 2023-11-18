@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  gradient_text:
+  gradient_txt:
     path: ../
 
 dev_dependencies:

@@ -1,7 +1,7 @@
-library gradient_text;
+library gradient_txt;
 
 import 'package:flutter/material.dart';
-import 'package:gradient_text/sample_colors.dart';
+import 'package:gradient_txt/sample_colors.dart';
 
 class GradientText extends StatelessWidget {
   const GradientText({

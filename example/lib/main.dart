@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gradient_text/gradient_text.dart';
+import 'package:gradient_txt/gradient_text.dart';
 
 void main() {
   runApp(const MyApp());
